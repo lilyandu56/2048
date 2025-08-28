@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>2048 avec pub</title>
 
-  <!-- Script AdSense -->
+  <!-- Script AdSense exact -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8699381540074637"
      crossorigin="anonymous"></script>
 
@@ -54,16 +54,6 @@
       font-weight: bold;
       color: red;
     }
-    .ads-container {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      text-align: center;
-      background: #fff;
-      padding: 5px 0;
-      box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
-    }
   </style>
 </head>
 <body>
@@ -71,17 +61,6 @@
   <div id="score">Score: 0</div>
   <div id="game-container"></div>
   <div id="game-over">Game Over!<br><button onclick="restartGame()">Rejouer</button></div>
-
-  <!-- Bannière pub -->
-  <div class="ads-container">
-    <ins class="adsbygoogle"
-         style="display:inline-block;width:320px;height:50px"
-         data-ad-client="ca-pub-8699381540074637"
-         data-ad-slot="2322634676"></ins>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-  </div>
 
   <script>
     const size = 4;
